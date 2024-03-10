@@ -73,3 +73,11 @@ hr {
 span {
     font-style: italic;
 }
+
+button:hover {
+    background-color: #4b008296;
+}
+
+.button:hover {
+    background-color: #4b008296;
+}

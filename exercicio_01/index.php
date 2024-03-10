@@ -14,6 +14,7 @@
             <hr>
         </div>
         <div class="conteudo">
+            <br>
             <form method="POST" action="destino.php">
                 <label for="nome">Nome: </label>
                 <input type="text" name="nome" id="nome" placeholder="Nome">
@@ -30,7 +31,9 @@
                 <br>
                 <button type="submit" name="enviar" id="enviar">Enviar</button>
             </form>
+            <br>
             <span>Você também pode fazer REQUEST na URL:</span>
+            <br>
             <a href="destino.php?nome=Laisa+Garlini&fone=(47)98886-2421&email=laisa.garlini@hotmail.com">
                 destino.php?nome=Laisa+Garlini&fone=(47)98886-2421&email=laisa.garlini@hotmail.com
             </a>
