@@ -1,0 +1,75 @@
+* {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    /* font-family: 'Fira Sans', sans-serif; */
+    /* font-size: 14px;
+    padding: 5% 10%; */
+    background-color: #DB7093;
+}
+
+.cabecalho, .conteudo {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 24px;
+    color: black;
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    display: inline-block;
+    width: 8%;
+    text-align: right;
+    vertical-align: top;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+input, textarea {
+    width: 20%;
+    border: 1px solid;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: #C71585;
+}
+
+button {
+    background-color: #4B0082;
+    color: white;
+    width: 150px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 25px;
+    margin-left: 13%;
+}
+
+.button {
+    background-color: #4B0082;
+    color: white;
+    padding: 3px 50px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 25px;
+    text-decoration: none;
+}
+
+hr {
+    border-style: solid;
+    color: black;
+    border-width: 1px;
+}
+
+span {
+    font-style: italic;
+}
